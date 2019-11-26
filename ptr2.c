@@ -1,0 +1,26 @@
+#include<stdio.h> 
+
+/*int main() 
+{ 
+   int a; 
+   char *x; 
+   x = (char *) &a; 
+   a = 64; 
+   x[0] = 4; 
+   x[1] = 8; 
+   printf("%d\n",a);   
+   return 0; 
+}*/
+//i//void fun(char a[]);
+int main()
+{
+char a[]={'1','2','3','4','5','6','8','10'};
+//int n=sizeof(a)/sizeof(a[0]);
+//printf("%d\n",n);
+fun(a);
+}
+void fun(char a[])
+{
+int n=sizeof(a)/sizeof(a[0]);
+printf("%d\n",n);
+}
